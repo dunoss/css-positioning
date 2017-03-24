@@ -26,4 +26,34 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  overflow: hidden;
+  padding: 10px;
+  border: thin solid grey;
+}
+.film-poster {
+  float: left;
+  width: 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.action-like {
+  text-align: right;
+  color: red;
+}
+
+.action-watch-later {
+  color: red;
+  text-align: right;
+  position: relative;
+  top: 0;
+
+}
+.film-details {
+  padding: 5px;
+}
+.fa-clock-o {
+  position: relative;
+  right: 10px;
+  bottom: 220px;
 }
